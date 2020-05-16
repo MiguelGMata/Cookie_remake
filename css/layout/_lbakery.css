@@ -1,0 +1,33 @@
+#bakery{
+  flex:1; /* production:flex:2 , store flex:1     */
+  height: 100vh;
+  min-width: 250px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: radial-gradient(circle, transparent 0%, rgba(0,0,0,0.5) 100%);
+}
+  
+#cookies{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 0 25% 0 ;
+}
+
+#cookiesStock {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+#cookiesPerSecond{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  cursor: pointer;
+}
